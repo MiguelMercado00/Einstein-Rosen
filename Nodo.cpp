@@ -6,10 +6,9 @@
 #include <iostream>
 #include <string>
 using namespace std;
-#include "Cientifico.h"
 #include "Evento.h"
 
-Nodo::Nodo(int dato, Cientifico cientifico, Evento evento) {
+Nodo::Nodo(int dato, string cientifico, Evento evento) {
     this->dato = dato;
     this->cientifico = cientifico;
     this->evento = evento;

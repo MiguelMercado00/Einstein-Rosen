@@ -8,17 +8,14 @@
 using namespace std;
 
 int Evento::EventoTipoA() {
-    cout << "Evento de tipo A" << endl;
-    return 0;
+    cout << "Se ha producido un evento de tipo A:";
 }
 
 int Evento::EventoTipoB() {
-    cout << "Evento de tipo B" << endl;
-    return 0;
+    cout << "Se ha producido un evento de tipo B:";
 }
 
 int Evento::EventoTipoC() {
-    cout << "Evento de tipo C" << endl;
-    return 0;
+    cout << "Se ha producido un evento de tipo C:";
 }
 

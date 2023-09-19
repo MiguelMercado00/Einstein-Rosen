@@ -6,8 +6,6 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(Einstein_Rosen
-        Cientifico.cpp
-        Cientifico.h
         Evento.cpp
         Evento.h
         ListaDoblementeEnlazada.cpp
